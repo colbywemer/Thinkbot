@@ -1,0 +1,5 @@
+{
+    "token": "NTczMTk5NDQzMjkwMjI2NzE5.XMnXlA.vHtMKzgfnduf6-0tCdaVVdkVFmA",
+    "prefix": "!",
+    "mongooseConnectionString": "mongodb+srv://Thinkbot:Zacharycolby@thinkbot.otdyv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
