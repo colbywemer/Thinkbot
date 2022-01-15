@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { mongooseConnectionString } = process.env.mongoose
+const { mongooseConnectionString } = require('./config.json')
 module.exports = async () => {
     await mongoose.connect(mongooseConnectionString,{
         useNewUrlParser: true,

@@ -144,7 +144,7 @@ module.exports = async (client) => {
       });
 
     // mongoose
-    const { mongooseConnectionString } = process.env.mongoose
+    const { mongooseConnectionString } = require('../config.json')
     if (!mongooseConnectionString) return;
       
     mongoose.connect(mongooseConnectionString).then(() => console.log('Connected to mongodb'));
