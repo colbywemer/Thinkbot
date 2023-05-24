@@ -8,7 +8,7 @@ const {
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("setup")
-    .setDescription("Allows the server owner to change the guild settings")
+    .setDescription("Allows administrators to change the guild settings")
     .addStringOption((option) =>
       option
         .setName("type")

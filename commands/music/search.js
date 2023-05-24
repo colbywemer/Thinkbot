@@ -17,7 +17,7 @@ module.exports = {
     .addSubcommand((subcommand) =>
       subcommand
         .setName("youtube")
-        .setDescription("automod mute action")
+        .setDescription("search youtube for songs")
         .addStringOption((option) =>
           option
             .setName("query")
@@ -28,7 +28,7 @@ module.exports = {
     .addSubcommand((subcommand) =>
       subcommand
         .setName("soundcloud")
-        .setDescription("automod mute action")
+        .setDescription("search soundcloud for songs")
         .addStringOption((option) =>
           option
             .setName("query")

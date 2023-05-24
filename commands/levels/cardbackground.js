@@ -8,7 +8,7 @@ const {
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("card-color")
-    .setDescription("rank card customazation")
+    .setDescription("rank card customization")
     .addSubcommand((subcommand) =>
       subcommand
         .setName("set")

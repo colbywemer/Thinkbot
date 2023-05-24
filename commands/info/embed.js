@@ -14,170 +14,170 @@ module.exports = {
     .addSubcommand((subcommand) =>
       subcommand
         .setName("user")
-        .setDescription("Send message to a user")
+        .setDescription("Send embed to a user")
         .addUserOption((option) =>
           option
             .setName("target")
-            .setDescription("user to send message to")
+            .setDescription("user to send embed to")
             .setRequired(true)
         )
         .addStringOption((option) =>
           option
             .setName("title")
-            .setDescription("message that you want to echo")
+            .setDescription("title of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("description")
-            .setDescription("message that you want to echo")
+            .setDescription("description of the embed")
             .setRequired(false)
             .setMaxLength(4096)
         )
         .addStringOption((option) =>
           option
             .setName("color")
-            .setDescription("message that you want to echo")
+            .setDescription("color of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("thumbnail")
-            .setDescription("message that you want to echo")
+            .setDescription("thumbnail of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("footer-text")
-            .setDescription("message that you want to echo")
+            .setDescription("footer text of the embed")
             .setRequired(false)
             .setMaxLength(2048)
         )
         .addStringOption((option) =>
           option
             .setName("footer-image")
-            .setDescription("message that you want to echo")
+            .setDescription("footer image of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("image")
-            .setDescription("message that you want to echo")
+            .setDescription("image of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("url")
-            .setDescription("message that you want to echo")
+            .setDescription("url of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("author-name")
-            .setDescription("message that you want to echo")
+            .setDescription("author name of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("author-image")
-            .setDescription("message that you want to echo")
+            .setDescription("author image of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("author-url")
-            .setDescription("message that you want to echo")
+            .setDescription("author url of the embed")
             .setRequired(false)
         )
         .addBooleanOption((option) =>
           option
             .setName("timestamp")
-            .setDescription("message that you want to echo")
+            .setDescription("select whether a timestamp is shown of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("field1-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 1 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field1-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 1 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field2-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 2 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field2-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 2 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field3-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 3 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field3-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 3 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field4-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 4 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field4-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 4 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field5-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 5 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field5-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 5 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addBooleanOption((option) =>
           option
             .setName("inline")
-            .setDescription("message that you want to echo")
+            .setDescription("whether the fields of the embed are inline")
             .setRequired(false)
         )
     )
     .addSubcommand((subcommand) =>
       subcommand
         .setName("channel")
-        .setDescription("Send message to a channel")
+        .setDescription("Send embed to a channel")
         .addChannelOption((option) =>
           option
             .setName("channel")
@@ -188,153 +188,153 @@ module.exports = {
         .addStringOption((option) =>
           option
             .setName("title")
-            .setDescription("message that you want to echo")
+            .setDescription("title of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("description")
-            .setDescription("message that you want to echo")
+            .setDescription("description of the embed")
             .setRequired(false)
             .setMaxLength(4096)
         )
         .addStringOption((option) =>
           option
             .setName("color")
-            .setDescription("message that you want to echo")
+            .setDescription("color of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("thumbnail")
-            .setDescription("message that you want to echo")
+            .setDescription("thumbnail of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("footer-text")
-            .setDescription("message that you want to echo")
+            .setDescription("footer text of the embed")
             .setRequired(false)
             .setMaxLength(2048)
         )
         .addStringOption((option) =>
           option
             .setName("footer-image")
-            .setDescription("message that you want to echo")
+            .setDescription("footer image of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("image")
-            .setDescription("message that you want to echo")
+            .setDescription("image of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("url")
-            .setDescription("message that you want to echo")
+            .setDescription("url of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("author-name")
-            .setDescription("message that you want to echo")
+            .setDescription("author name of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("author-image")
-            .setDescription("message that you want to echo")
+            .setDescription("author image of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("author-url")
-            .setDescription("message that you want to echo")
+            .setDescription("author url of the embed")
             .setRequired(false)
         )
         .addBooleanOption((option) =>
           option
             .setName("timestamp")
-            .setDescription("message that you want to echo")
+            .setDescription("select whether a timestamp is shown of the embed")
             .setRequired(false)
         )
         .addStringOption((option) =>
           option
             .setName("field1-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 1 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field1-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 1 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field2-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 2 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field2-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 2 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field3-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 3 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field3-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 3 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field4-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 4 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field4-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 4 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addStringOption((option) =>
           option
             .setName("field5-text")
-            .setDescription("message that you want to echo")
+            .setDescription("field 5 text of the embed")
             .setRequired(false)
             .setMaxLength(256)
         )
         .addStringOption((option) =>
           option
             .setName("field5-value")
-            .setDescription("message that you want to echo")
+            .setDescription("field 5 value of the embed")
             .setRequired(false)
             .setMaxLength(1024)
         )
         .addBooleanOption((option) =>
           option
             .setName("inline")
-            .setDescription("message that you want to echo")
+            .setDescription("whether the fields of the embed are inline")
             .setRequired(false)
         )
     )
